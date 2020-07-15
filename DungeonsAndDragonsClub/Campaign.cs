@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DungeonsAndDragonsClub
 {
-	interface Campaign
+	public interface Campaign
 	{
 	}
 }
