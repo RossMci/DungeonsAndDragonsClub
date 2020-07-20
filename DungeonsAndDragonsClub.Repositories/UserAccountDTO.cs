@@ -1,12 +1,10 @@
-namespace DungeonsAndDragonsClub
+﻿namespace DungeonsAndDragonsClub.Repositories
 {
 	using System;
-	using System.Collections.Generic;
-
 	/// <summary>
 	/// User Account
 	/// </summary>
-	public interface UserAccount
+	public interface UserAccountDTO
 	{
 		#region	Properties
 		#endregion
@@ -15,13 +13,12 @@ namespace DungeonsAndDragonsClub
 		Boolean IsActive { get; set; }
 		String Name { get; set; }
 		String Password { get; set; }
-		IList<UserAccount> UserGroups { get; set; }
 		String Username { get; set; }
 		#region	Properties User Tracking
 		#endregion
-		UserAccount CreatedBy { get; set; }
+		Int32 CreatedBy { get; set; }
 		DateTime DateCreated { get; set; }
 		DateTime DateLastModified { get; set; }
-		UserAccount ModifiedBy { get; set; }
+		Int32 ModifiedBy { get; set; }
 	}
 }

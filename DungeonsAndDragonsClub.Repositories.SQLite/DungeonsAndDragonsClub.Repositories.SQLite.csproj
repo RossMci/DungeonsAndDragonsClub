@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonsAndDragonsClub.Repositories.Implementation\DungeonsAndDragonsClub.Repositories.Implementation.csproj" />
     <ProjectReference Include="..\DungeonsAndDragonsClub.Repositories\DungeonsAndDragonsClub.Repositories.csproj" />
   </ItemGroup>
 

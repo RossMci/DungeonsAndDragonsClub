@@ -4,13 +4,7 @@ using System.Text;
 
 namespace DungeonsAndDragonsClub
 {
-	public interface Campaign
+	class Admin
 	{
-		//ID 
-		//name
-		//createdBy
-		//ModifiedBy
-		//Created
-		//
 	}
 }
