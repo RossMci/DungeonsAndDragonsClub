@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsClub.Repo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsClub.Repositories.Implementation", "DungeonsAndDragonsClub.Repositories.Implementation\DungeonsAndDragonsClub.Repositories.Implementation.csproj", "{4C8BDA80-8083-448C-BA1F-C9598B2FE2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndDragonsClub.Repositories.SQLite", "DungeonsAndDragonsClub.Repositories.SQLite\DungeonsAndDragonsClub.Repositories.SQLite.csproj", "{5EC7DC01-FE13-4AA2-9EDE-6A7A0712263A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsClub.Repositories.SQLite", "DungeonsAndDragonsClub.Repositories.SQLite\DungeonsAndDragonsClub.Repositories.SQLite.csproj", "{5EC7DC01-FE13-4AA2-9EDE-6A7A0712263A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{EB1283FE-18C7-4E56-ABB6-B2A3E62002DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndDragonsClub.Repositories.UnitTests", "DungeonsAndDragonsClub.Repositories.UnitTests\DungeonsAndDragonsClub.Repositories.UnitTests.csproj", "{7424F567-D031-4FD7-A912-23833A790B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonsAndDragonsClub.Repositories.UnitTests", "DungeonsAndDragonsClub.Repositories.UnitTests\DungeonsAndDragonsClub.Repositories.UnitTests.csproj", "{7424F567-D031-4FD7-A912-23833A790B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonsAndDragonsClub.Web", "DungeonsAndDragonsClub.Web\DungeonsAndDragonsClub.Web.csproj", "{CDCD3A01-D369-4F6C-9D2C-4E61B4C029BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{7424F567-D031-4FD7-A912-23833A790B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7424F567-D031-4FD7-A912-23833A790B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7424F567-D031-4FD7-A912-23833A790B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCD3A01-D369-4F6C-9D2C-4E61B4C029BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCD3A01-D369-4F6C-9D2C-4E61B4C029BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCD3A01-D369-4F6C-9D2C-4E61B4C029BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCD3A01-D369-4F6C-9D2C-4E61B4C029BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
