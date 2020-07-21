@@ -3,7 +3,7 @@
 	using System;
 	using System.Collections.Generic;
 	using System.Text;
-	public interface Description
+	public interface CharacterDescription
 	{
 		Int32 Id { get; set; }
 		String Name { get; set; }

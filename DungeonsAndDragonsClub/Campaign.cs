@@ -13,9 +13,8 @@ namespace DungeonsAndDragonsClub
 		DateTime DateCreated { get; set; }
 		DateTime DateLastModified { get; set; }
 		DateTime CampaignDate{ get; set; }
-		DateTime StartTime { get; set; }
-		DateTime EndTime { get; set; }
-		String CampaignDescription { get; set; }
+		DateTime CampaignFinishDate { get; set; }
+		String Description { get; set; }
 		IList<UserAccount> UserAccounts { get; set; }
 		// image Type ?
 	}
