@@ -60,7 +60,7 @@
 				}
 			}
 		}
-		public void InsertUserGroup(UserGroupDTO course)
+		public Int32 InsertUserGroup(UserGroupDTO course)
 		{
 			using var connection = new SQLiteConnection(DatabaseAgent.ConnectionString);
 			{
@@ -70,7 +70,7 @@
 					command.Parameters.AddWithValue("$Name", course.Name);
 					command.Prepare();
 					command.ExecuteNonQuery();
-					course.Id = GetLastInsertRowId(connection);
+					return course.Id = GetLastInsertRowId(connection);
 				}
 			}
 		}

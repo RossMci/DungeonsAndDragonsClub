@@ -7,7 +7,7 @@
 		void DeleteUserAccount(UserAccountDTO userAccount);
 		IEnumerable<UserAccountDTO> GetUserAccounts();
 		UserAccountDTO GetUserAccountById(Int32 userAccountId);
-		void InsertUserAccount(UserAccountDTO userAccount);
+		Int32 InsertUserAccount(UserAccountDTO userAccount);
 		void UpdateUserAccount(UserAccountDTO userAccount);
 	}
 }

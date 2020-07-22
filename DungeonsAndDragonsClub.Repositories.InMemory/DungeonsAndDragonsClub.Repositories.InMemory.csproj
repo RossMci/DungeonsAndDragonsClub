@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <ProjectReference Include="..\DungeonsAndDragonsClub.Repositories\DungeonsAndDragonsClub.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

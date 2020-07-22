@@ -7,7 +7,7 @@
 		void DeleteUserGroup(UserGroupDTO tutor);
 		IEnumerable<UserGroupDTO> GetUserGroups();
 		UserGroupDTO GetUserGroupById(Int32 tutorId);
-		void InsertUserGroup(UserGroupDTO tutor);
+		Int32 InsertUserGroup(UserGroupDTO tutor);
 		void UpdateUserGroup(UserGroupDTO tutor);
 	}
 }

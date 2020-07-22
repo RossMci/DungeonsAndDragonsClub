@@ -60,7 +60,7 @@
 				}
 			}
 		}
-		public void InsertUserAccount(UserAccountDTO userAccount)
+		public Int32 InsertUserAccount(UserAccountDTO userAccount)
 		{
 			userAccount.DateCreated = userAccount.DateLastModified = DateTime.Now;
 			using var connection = new SQLiteConnection(DatabaseAgent.ConnectionString);
@@ -78,7 +78,7 @@
 					command.Prepare();
 					command.ExecuteNonQuery();
 
-					userAccount.Id = GetLastInsertRowId(connection);
+					return userAccount.Id = GetLastInsertRowId(connection);
 				}
 			}
 		}
